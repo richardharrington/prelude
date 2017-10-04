@@ -36,6 +36,10 @@
     (cider-repl-return)))
 
 
+(setq js-indent-level 2)
+(setq-local js2-basic-offset 2)
+(setq-local javascript-indent-level 2)
+
 (provide 'my-stuff)
 
 ;;; my-stuff.el ends here
